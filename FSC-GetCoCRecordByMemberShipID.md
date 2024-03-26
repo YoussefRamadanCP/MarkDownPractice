@@ -1,9 +1,12 @@
 # FSC-GetCoCRecordByMemberShipID
+## Introduction
+## Security
 ## Proxy Configuration
 #### Target Servers
 [Target Servers Environment URL](https://edgeui-preprod.rega.gov.sa/platform/rega/environments/development/target-servers).
 
-###### Target Server Configuration
+###### Target Server Configuration 
+  
 ```xml
 <TargetServer name="GSB">
  <IsEnabled>true</IsEnabled>
