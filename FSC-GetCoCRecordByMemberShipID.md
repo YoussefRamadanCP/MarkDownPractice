@@ -284,4 +284,4 @@ Type: string
 | FSC-GetCoCRecordByMemberShipID-RF-ExceptionDetailError      | Exception |   |    ```{ "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] }```     |
 | FSC-GetCoCRecordByMemberShipID-RF-FaultError      | Fault Error       |  | ```{ "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] } ```   |
 | FSC-GetCoCRecordByMemberShipID-RF-ServiceError400      | Bad Request       | 400  |      ```{TR-Res.ServiceError400}``` |
-| FSC-GetCoCRecordByMemberShipID-RF-ServiceError      | Service Error       |   |     ```json { "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] } ```   |
+| FSC-GetCoCRecordByMemberShipID-RF-ServiceError      | Service Error       |   |     ``` { "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] } ```   |
