@@ -4,8 +4,8 @@
 
 - [FSC-GetCoCRecordByMemberShipID Documentation](#FSC-GetCoCRecordByMemberShipID)
     - [Introduction](##Introduction)
-    - [Info Section](#info-section)
-    - [Server Section](#server-section)
+    - [Proxy Configuration](##Proxy-Configuration)
+    - [Mediation](##Mediation)
     - [Paths Section](#paths-section)
     - [Components Section](#components-section)
     - [Security Section](#security-section)
