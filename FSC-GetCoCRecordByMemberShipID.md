@@ -1,4 +1,17 @@
 # FSC-GetCoCRecordByMemberShipID
+
+## Table of Contents
+
+- [FSC-GetCoCRecordByMemberShipID Documentation](#FSC-GetCoCRecordByMemberShipID)
+    - [General Structure](#general-structure)
+    - [Info Section](#info-section)
+    - [Server Section](#server-section)
+    - [Paths Section](#paths-section)
+    - [Components Section](#components-section)
+    - [Security Section](#security-section)
+    - [Summary](#summary)
+    - [YAML Template](#yaml-template)
+
 ## Introduction
 The objective of this document is to present API specification (between API clients and Apigee) including methods, URLs, request/response body formats, etc
 
