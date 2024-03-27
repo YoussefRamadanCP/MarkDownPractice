@@ -41,7 +41,7 @@ So in order to make the proxy more secure we have created an OauthV2 Bearer toke
 ## Mediation
 
 ##### Flow
-
+![Proxy Flow](FSC-GetCoCRecordByMemberShipID.png)
 
 ##### Query Parameters (Client Request to Proxy)
 
