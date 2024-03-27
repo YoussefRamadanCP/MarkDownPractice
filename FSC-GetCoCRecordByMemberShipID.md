@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [FSC-GetCoCRecordByMemberShipID Documentation](#FSC-GetCoCRecordByMemberShipID)
-    - [General Structure](#general-structure)
+    - [Introduction](##Introduction)
     - [Info Section](#info-section)
     - [Server Section](#server-section)
     - [Paths Section](#paths-section)
