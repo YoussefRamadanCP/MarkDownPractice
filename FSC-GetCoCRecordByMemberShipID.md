@@ -277,11 +277,11 @@ Type: string
 ## Error Codes Returned by Apigee
 | Title       | Error Type  | Response Code     |  Error Message  |
 | :---        |    :----:   |     :----:    |      ---:    |
-| FSC-GetCoCRecordByMemberShipID-401Unauthorized     | Unauthorized      | 401  |      ``` {<br/> "ServiceError":{"SourceAgency":"Apigee","ErrorType":"TechnicalError","Code":"401","ErrorText":"Unauthorized",}}```    |
-| Header      | Title       | Here's this   |      Here's this    |
-| Header      | Title       | Here's this   |      Here's this    |
-| Header      | Title       | Here's this   |      Here's this    |
-| Header      | Title       | Here's this   |      Here's this    |
-| Header      | Title       | Here's this   |      Here's this    |
-| Header      | Title       | Here's this   |      Here's this    |
-| Header      | Title       | Here's this   |      Here's this    |
+| FSC-GetCoCRecordByMemberShipID-401Unauthorized     | Unauthorized      | 401  |      ``` { "ServiceError":{"SourceAgency":"Apigee","ErrorType":"TechnicalError","Code":"401","ErrorText":"Unauthorized"}}```    |
+| FSC-GetCoCRecordByMemberShipID-404NotFound      | Not Found       | 404  |      ``` { "ServiceError":{ "SourceAgency":"Apigee", "ErrorType":"TechnicalError", "Code":"404", "ErrorText":"Not Found" } } ```    |
+| FSC-GetCoCRecordByMemberShipID-405MethodNotAllowed     | Method Not Allowed       | 405   |      ``` { "ServiceError":{ "SourceAgency":"Apigee", "ErrorType":"TechnicalError", "Code":"405", "ErrorText":"Method Not Allowed" } } ```    |
+| FSC-GetCoCRecordByMemberShipID-415UnsupportedMediaType      | Unsupported Media Type       | 415  |      ``` { "ServiceError":{ "SourceAgency":"Apigee", "ErrorType":"TechnicalError", "Code":"415", "ErrorText":"Unsupported Media Type" } } ```    |
+| FSC-GetCoCRecordByMemberShipID-RF-ExceptionDetailError      | Exception |   |    ```{ "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] }```     |
+| FSC-GetCoCRecordByMemberShipID-RF-FaultError      | Fault Error       |  | ```{ "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] } ```   |
+| FSC-GetCoCRecordByMemberShipID-RF-ServiceError400      | Bad Request       | 400  |      ```{TR-Res.ServiceError400}``` |
+| FSC-GetCoCRecordByMemberShipID-RF-ServiceError      | Service Error       |   |     ```json { "RaisedBy": "string", "Code": "string", "ErrorText": "string", "Insert": [ "string" ] } ```   |
