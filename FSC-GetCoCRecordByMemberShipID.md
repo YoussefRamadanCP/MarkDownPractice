@@ -274,7 +274,7 @@ Type: string
 }
 
 ```
-## Error Codes Returned by Apigee
+## Error Codes and Messages Returned by Apigee
 | Title       | Error Type  | Response Code     |  Error Message  |
 | :---        |    :----:   |     :----:    |      ---:    |
 | FSC-GetCoCRecordByMemberShipID-401Unauthorized     | Unauthorized      | 401  |      ``` { "ServiceError":{"SourceAgency":"Apigee","ErrorType":"TechnicalError","Code":"401","ErrorText":"Unauthorized"}}```    |
