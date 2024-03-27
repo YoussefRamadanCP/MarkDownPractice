@@ -6,11 +6,7 @@
     - [Introduction](#Introduction)
     - [Proxy Configuration](#Proxy-Configuration)
     - [Mediation](#Mediation)
-    - [Paths Section](#paths-section)
-    - [Components Section](#components-section)
-    - [Security Section](#security-section)
-    - [Summary](#summary)
-    - [YAML Template](#yaml-template)
+    - [Error Codes and Messages Returned by Apigee](#Error-Codes-and-Messages-Returned-by-Apigee)
 
 ## Introduction
 The objective of this document is to present API specification (between API clients and Apigee) including methods, URLs, request/response body formats, etc
