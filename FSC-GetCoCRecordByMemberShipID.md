@@ -275,9 +275,9 @@ Type: string
 
 ```
 ## Error Codes Returned by Apigee
-| Syntax      | Description | Test Text     |  Description |
+| Title       | Error Type  | Response Code     |  Error Message  |
 | :---        |    :----:   |     :----:    |      ---:    |
-| Header      | Title       | Here's this   |      Here's this    |
+| FSC-GetCoCRecordByMemberShipID-401Unauthorized     | Unauthorized      | 401  |      ``` {<br/> "ServiceError":{"SourceAgency":"Apigee","ErrorType":"TechnicalError","Code":"401","ErrorText":"Unauthorized",}}```    |
 | Header      | Title       | Here's this   |      Here's this    |
 | Header      | Title       | Here's this   |      Here's this    |
 | Header      | Title       | Here's this   |      Here's this    |
